@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROTEIRIZAÇÃO</title>
+    <link rel="stylesheet" href="roteiro.css">
+    <link rel="shortcut icon" type="imagex/png" href="logo_polybalas.ico">
+</head>
+<body>
+    <div id="menu" class="menu">
+        <ul align="center">
+          <h2 align="center">MENU</h2><br>
+          <li><a href="c:\Users\arthurnobrega\Desktop\1\novo teste formulário polybalas\index\index.html"><img src="homer.png.png"width="35"><br>Inicio</a></li>
+          <li><a href="c:\Users\arthurnobrega\Desktop\1\novo teste formulário polybalas\formulário roteirização\index.html"><img src="localização.png.png"width="35"><br>Roteirização</a></li>
+          <li><a href="https://polybalas.github.io/AGENDA/"><img src="agenda.png.png"width="35"><br>Agenda Semanal</a></li>
+          <li><a href="c:\Users\arthurnobrega\Desktop\1\novo teste formulário polybalas\mapa\index.html"><img src="mapa.png.png"width="35"><br>Mapa</a></li>
+          <li><a href="https://wa.me/message/LL3NLMNAPYGOI1"><img src="whatsapp.png.png"width="35"><br>whatsApp</a></li>
+          <li><a href="mailto:arthur.nobrega@polybalas.com.br"><img src="e-mail.png.png"width="35"><br>E-mail</a></li>
+        </ul>
+      </div>
+    <header id="inicio">
+        <nav>
+            <ul>
+                <img src="menu.png.png"id="openMenuBtn">
+            </ul>
+        </nav>
+        <h1>FORMULÁRIO ROTEIRIZAÇÃO</h1>
+        <img src=https://assets.agilecdn.com.br/images/logo_polybalas.png?v=690 alt="Logo da Empresa" width="110" height="300">
+    </header>
+
+       <div id="inicial" align="center">
+        <div id="formularios" class="colorido" align="center">
+            <h2>Formulário de Roteirização de Cliente</h2>
+            <form action="https://api.sheetmonkey.io/form/xvaGsPbziGYYi3jtsmTUm5" method="post" id="formRoteirizacao" class="formulario">
+
+                <div class="form-item">
+                    <label for="codigoCliente">Código do Cliente:</label>
+                    <input type="number" id="codigoCliente" name="codigoCliente"placeholder="Código do cliente" min="1" max="30000" required>
+                </div>
+
+                <div class="form-item">
+                    <label for="razaoSocial">Razão Social do Cliente:</label>
+                    <input type="text" id="razaoSocial" name="razaoSocial" placeholder="Razão social"pattern="[A-Za-z0-9]{3}-[A-Za-z0-9]{4}"minlength="10" maxlength="45" required oninput="this.value = this.value.toUpperCase()">
+                </div>
+
+                <div class="form-item">
+                    <label for="codigoVendedor">Código do Vendedor:</label>
+                    <input type="number" id="codigoVendedor" name="codigoVendedor"placeholder="Código do vendedor" min="1" max="30000" required>
+                </div>
+
+                <div class="form-item">
+                    <label for="nomeVendedor">Vendedor:</label>
+                    <input type="text" id="nomeVendedor" name="nomeVendedor" placeholder="Nome do vendedor"pattern="[A-Za-z0-9]{3}-[A-Za-z0-9]{4}"minlength="10" maxlength="25" required oninput="this.value = this.value.toUpperCase()">
+                </div>
+
+                <div class="form-item">
+                    <label for="rotaVendedor">Rota:</label>
+                    <input type="text" id="rotaVendedor" name="rotaVendedor" placeholder="Rota" pattern="[A-Za-z0-9]{3}-[A-Za-z0-9]{4}"minlength="5" maxlength="20" required oninput="this.value = this.value.toUpperCase()">
+                </div>
+
+                <div class="form-item">
+                    <label for="diaVisita">Dia de Visita:</label>
+                    <input type="date" id="diaVisita" name="diaVisita" required>
+                </div>
+    
+                <div class="form-item">
+                    <label for="modeloVisita">Modelo de Visita:</label>
+                    <div class="modelo-visita">
+                        <label for="visita1">1/3</label>
+                        <input type="radio" id="visita1" name="modeloVisita" value="1/3" required>
+                        <label for="visita2">2/4</label>
+                        <input type="radio" id="visita2" name="modeloVisita" value="2/4">
+                        <label for="visitaSemanal">Semanal</label>
+                        <input type="radio" id="visitaSemanal" name="modeloVisita" value="Semanal">
+                    </div>
+                </div><br>
+
+                <div class="form-item">
+                    <label for="alteração">Alteração de Roteiro:</label>
+                    <input type="text" id="observacaoalteracao" name="observacaoalteracao" placeholder="Observação" pattern="[A-Za-z0-9]{3}-[A-Za-z0-9]{4}"minlength="5" maxlength="45" required oninput="this.value = this.value.toUpperCase()">
+                </div>
+    
+                <div class="form-buttons">
+                    <button type="submit" class="red-button">Enviar</button>
+                    <button type="reset" class="red-button">Limpar Campos</button>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <p>Polybalas - Rua João Miguel de Souza, 173 Galpão B - Ernesto Geisel, João Pessoa/PB - CEP 58.075-075 - CNPJ 00.909.327/0002-61</p>
+          </footer>
+          <script src="menu.js"></script>
+</body>
+</html>

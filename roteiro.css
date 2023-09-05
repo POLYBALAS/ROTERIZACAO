@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+    background: url(fundo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color:transparent;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: flex;
+    backdrop-filter: blur(20px);
+}
+.menu {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 7%;
+    height: 100%;
+    background-color: rgba(0,0,0, .6);
+    transition: left 0.1s ease-in-out;
+    z-index: 9999; 
+    color: #ffffff;
+  }
+
+.menu.open {
+    left: 0;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu li {
+    padding: 10px;
+  }
+  
+  .menu a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  #openMenuBtn img {
+    width: 50px; /* Defina o tamanho desejado */
+    height: 50px; /* Defina o tamanho desejado */
+    margin-right: 5px; /* Espaço entre o ícone e o texto "Abrir Menu" */
+  }
+
+h1{
+    color: rgb(0, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{color: #ffffff;}
+
+
+header img {
+    height: 50px;
+}
+.formularios{
+    padding: 20px;
+    background-color:rgba(0,0,0, .6) ;
+}
+
+footer {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 414px;
+    backdrop-filter: blur(20px);
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+}
+
+.colorido {
+    background-color: rgba(0,0,0, .6);
+    padding: 40px;
+    border-radius: 10px;
+    width: 70%;
+    display: center;
+    margin-top: 45px;
+    color: #ffffff;
+}
+
+
+.form-item {
+    margin-bottom: 5px;
+}
+
+.form-item label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-item input,
+.form-item textarea {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid rgba(0,0,0, .6);
+    border-radius: 5px;
+}
+
+.form-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.red-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.modelo-visita {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ccc;
+    padding: 5px;
+    width: 80%;
+}
+
+footer {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 4.4%;
+    backdrop-filter: blur(20px);
+}
